@@ -1,0 +1,71 @@
+.container {
+  border: 3px solid black;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  margin-top: 200px;
+}
+h2 {
+  text-align: center;
+}
+.one {
+  background: linear-gradient(rgb(95, 243, 26), rgb(13, 223, 13));
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid grey;
+  text-align: center;
+}
+.one:hover {
+  background-color: rgb(176, 255, 29);
+  color: black;
+}
+.two {
+  background: linear-gradient(rgb(255, 24, 16), rgb(238, 33, 33));
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid grey;
+  text-align: center;
+}
+.two:hover {
+  background-color: rgb(255, 77, 77);
+  color: black;
+}
+.flex1 {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.flex1 div {
+  padding: 5px;
+  border: 2px solid black;
+  display: flex;
+}
+.challenge2_display {
+  padding-left: 645px;
+  margin-top: 20px;
+}
+#challenge2 {
+  display: none;
+  background: linear-gradient(rgb(255, 251, 27), rgb(255, 190, 11));
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid rgb(227, 252, 2);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+#challenge2:hover {
+  background-color: rgb(255, 112, 29);
+  color: rgb(6, 2, 48);
+}

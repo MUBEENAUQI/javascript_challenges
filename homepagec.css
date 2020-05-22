@@ -1,0 +1,51 @@
+.head {
+  border: 3px solid black;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  margin-top: 200px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+#challenge1 {
+  display: none;
+  background: linear-gradient(rgb(255, 251, 27), rgb(255, 190, 11));
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid rgb(227, 252, 2);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+#challenge1:hover {
+  background-color: rgb(255, 112, 29);
+  color: rgb(6, 2, 48);
+}
+.name_dispaly {
+  text-align: center;
+  text-decoration-style: solid;
+}
+.challenge1_display {
+  padding-left: 440px;
+}
+#buttons {
+  background: linear-gradient(rgb(255, 251, 27), rgb(255, 190, 11));
+  padding: 10px 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid rgb(227, 252, 2);
+  text-align: center;
+}
+.names {
+  padding-left: 400px;
+}
