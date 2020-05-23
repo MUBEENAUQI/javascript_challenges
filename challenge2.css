@@ -1,0 +1,47 @@
+.container {
+  border: 3px solid black;
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  margin-top: 200px;
+}
+h2 h3 {
+  text-align: center;
+}
+#generating {
+  border: 3px solid black;
+  padding: 10px;
+}
+.flex {
+  display: flex;
+  border: 2px solid rgb(39, 0, 61);
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-around;
+}
+.flex img {
+  border: 3px solid rgb(25, 0, 39);
+  padding: 8px;
+}
+.challenge3_display {
+  padding-left: 480px;
+  margin-top: 20px;
+}
+#challenge3 {
+  display: none;
+  background: linear-gradient(rgb(255, 251, 27), rgb(255, 190, 11));
+  padding: 8px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  color: black;
+  border: 2px solid rgb(227, 252, 2);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+#challenge3:hover {
+  background-color: rgb(255, 112, 29);
+  color: rgb(6, 2, 48);
+}
